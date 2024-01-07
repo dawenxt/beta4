@@ -1,0 +1,499 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <title>Trigen</title>
+    </head>
+    <body>
+
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+        
+                <div class="nav__shop" id="cart-shop" style="font-size: 30px;">
+                    <i class='bx bx-shopping-bag' ></i>
+                </div>
+
+                <a href="#" class="nav__logo" style="font-family: 'Chivo', sans-serif;">XXV</a>
+                    
+                <div class="nav__menu" id="nav-menu" >
+                    <ul class="nav__list" >
+
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="chart.html" class="nav__link">Size Chart</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>                    
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-menu' style="margin-bottom: 2px; font-size: 40px; color:black;background-color: white;"></i>
+                    </div>          
+
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <i class='bx bx-x cart__close' id="cart-close"></i>
+
+            <h2 class="cart__title-center">My Cart</h2>
+
+            <h2 class="cart__title-center" style="margin-top: 250px;">In maintenance..</h2>
+            <!--<div class="cart__container">
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/front.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Cart 1</h3>
+                        <span class="cart__price">₱1050</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/black.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Cart 2</h3>
+                        <span class="cart__price">₱850</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/front.jpg" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Cart 3</h3>
+                        <span class="cart__price">₱980</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+              
+                </article>
+                 
+            </div>
+            
+
+            <div class="cart__prices">
+                <span class="cart__prices-item">3 items</span>
+                <span class="cart__prices-total">₱2880</span>
+            </div>
+             -->
+        </div>
+        
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        
+    <!--==================== HOME ====================-->
+    <section class="home" id="homes">
+        <div class="home__container container grid">
+          <!-- Your content here -->
+        </div>
+        <div class="indicator">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <!-- Add more dots for additional images -->
+        </div>
+      </section>
+      
+      
+
+
+<br><br>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="featured container" id="featured">
+                
+                <h2 class="section__title" style="text-align: center;">
+                    ALL PRODUCTS
+                </h2>
+
+                <div class="featured__container ">
+                    <article class="featured__card">
+                        <span class="featured__tag">50% Sale</span>
+                        
+                        <div class="image-zoom">
+                        <img src="assets/img/front.png" alt="" class="featured__img">
+                        </div>
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">SHIRT EXAMPLE</h3>
+                            <h3 class="featured__title">₱599.00 PHP</h3>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">10% Sale</span>
+
+                        <img src="assets/img/front.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">SHIRT EXAMPLE</h3>
+                            <h3 class="featured__title">₱599.00 PHP</h3>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">20% Sale</span>
+
+                        <img src="assets/img/front.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">SHIRT EXAMPLE</h3>
+                            <h3 class="featured__title">₱599.00 PHP</h3>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+                </div>
+                
+            </section>
+                     
+            <h1 class="home__titles" style="text-align: center; font-size: 25px; margin-top: 70px; color: black;">OFFICIAL</h1>
+
+            <section class="homes" id="home">
+                <div class="home__container container ">
+  
+                        <div class="slideshow-container">
+                            <h2 class="section__title" style="text-align: center; font-family: 'Lexend Deca', sans-serif; margin-top: 80px;">
+                                Be a part of our Community
+                            </h2>
+                            <div class="mySlides fade">
+                                <img src="assets/img/bg5.jpg" alt="Slide 1">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="assets/img/bg6.jpg" alt="Slide 2">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="assets/img/bg3.jpg" alt="Slide 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            
+            <!--==================== ALL PRODUCTS ====================-->
+
+            <!--<section class="products section container" id="products">
+                <h2 class="section__title">
+                    All Products
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="assets/img/front.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Example 1</h3>
+                        <span class="products__price">₱500.00 PHP</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/front.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Example 2</h3>
+                        <span class="products__price">₱499.00 PHP</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/front.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Example 3</h3>
+                        <span class="products__price">₱870.00 PHP</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/front.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Example 4</h3>
+                        <span class="products__price">₱650.00 PHP</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>          
+                </div>
+            </section>-->
+            
+  
+           
+            <!--==================== NEWSLETTER EMAIL ====================-->
+            <form class="gform pure-form pure-form-stacked" method="POST" data-email="gacerdarwin265@gmail.com"
+            action="https://script.google.com/macros/s/AKfycbz5Pm50cV8yRwEzDYD_XBoGgO_5S-Rd7ebmy-A148N-NhtsElh5jZ9U44_Wl4zrnBrg3w/exec">
+           
+            <section class="newsletter section container" style="background-image: url('assets/img/last.jpg'); margin-top: 50px; background-size: cover;">
+            <div class="newsletter__bg grid">
+                <div>
+                    <h2 class="newsletter__title">Newsletter</h2>
+                    <p class="newsletter__description">
+                        Don't miss out on your discounts. Subscribe to our email newsletter to get the best offers, discounts, coupons, gifts, and much more.
+                    </p>
+                </div>
+        
+                <form action="" class="newsletter__subscribe" onsubmit="submitForm(event)">
+                    <input type="email" name="gmail" placeholder="Enter your email" required="" class="newsletter__input">
+                    <button class="button" type="submit">
+                        SUBSCRIBE
+                    </button>
+                </form>
+                <p id="subscription-status" style="display: none;">Thank you for subscribing!</p>
+            </div>
+        </section>      
+
+        <div class="thankyou_message" style="display:none;background:none;border:6px aliceblue;border-radius: 40px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;margin-top: 200px;"><br><br>
+            <h1 style="color: orange;">Thank you for purchasing our products online.<br><h1 style="color: #273d61;"><br>Wait for confirmation of your order the receipt sent to your gmail. Please wait.<br></a><br></h1> <div><br><br><br> <a href="index.html" class="btn" style="text-align: center; margin-right: 20px; color: orange;">Okay</a></div>
+          </div>
+        </form>
+        <script data-cfasync="false" type="text/javascript">
+          
+         (function() {
+        function validEmail(email) {
+          var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+          return re.test(email);
+        }
+      
+        function validateHuman(honeypot) {
+          if (honeypot) {
+            console.log("Robot Detected!");
+            return true;
+          } else {
+            console.log("Welcome Human!");
+          }
+        }
+        function getFormData(form) {
+          var elements = form.elements;
+      
+          var fields = Object.keys(elements).filter(function(k) {
+                return (elements[k].name !== "honeypot");
+          }).map(function(k) {
+            if(elements[k].name !== undefined) {
+              return elements[k].name;
+            }else if(elements[k].length > 0){
+              return elements[k].item(0).name;
+            }
+          }).filter(function(item, pos, self) {
+            return self.indexOf(item) == pos && item;
+          });
+      
+          var formData = {};
+          fields.forEach(function(name){
+            var element = elements[name];
+            formData[name] = element.value;
+            if (element.length) {
+              var data = [];
+              for (var i = 0; i < element.length; i++) {
+                var item = element.item(i);
+                if (item.checked || item.selected) {
+                  data.push(item.value);
+                }
+              }
+              formData[name] = data.join(', ');
+            }
+          });
+      
+          // add form-specific values into the data
+          formData.formDataNameOrder = JSON.stringify(fields);
+          formData.formGoogleSheetName = form.dataset.sheet || "Sheet1"; // default sheet name
+          formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+      
+          console.log(formData);
+          return formData;
+        }
+      
+        function handleFormSubmit(event) {  
+          event.preventDefault();           
+          var form = event.target;
+          var data = getFormData(form);         
+          if( data.email && !validEmail(data.email) ) {   
+            var invalidEmail = form.querySelector(".email-invalid");
+            if (invalidEmail) {
+              invalidEmail.style.display = "block";
+              return false;
+            }
+          } else {
+            disableAllButtons(form);
+            var url = form.action;
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', url);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.onreadystatechange = function() {
+                console.log(xhr.status, xhr.statusText);
+                console.log(xhr.responseText);
+                var formElements = form.querySelector(".form-elements")
+                if (formElements) {
+                  formElements.style.display = "none"; // hide form
+                }
+                var thankYouMessage = form.querySelector(".thankyou_message");
+                if (thankYouMessage) {
+                  thankYouMessage.style.display = "block";
+                }
+                return;
+            };
+            var encoded = Object.keys(data).map(function(k) {
+                return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+            }).join('&');
+            xhr.send(encoded);
+          }
+        }
+        
+        function loaded() {
+          console.log("Contact form submission handler loaded successfully.");
+          var forms = document.querySelectorAll("form.gform");
+          for (var i = 0; i < forms.length; i++) {
+            forms[i].addEventListener("submit", handleFormSubmit, false);
+          }
+        };
+        document.addEventListener("DOMContentLoaded", loaded, false);
+      
+        function disableAllButtons(form) {
+          var buttons = form.querySelectorAll("button");
+          for (var i = 0; i < buttons.length; i++) {
+            buttons[i].disabled = true;
+          }
+        }
+      })();
+      
+         
+        </script>
+
+    </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">XXV</h3>
+                    <p class="story__description">
+                        Our collections are designed to celebrate diversity, 
+                        embracing the unique beauty of every individual who wears our garments.
+                    </p>
+
+                    <ul class="footer__social" >
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+
+                        <a href="https://tiktok.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-tiktok' ></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </ul>
+
+                    <span class="footer__copy">Powered by Shopify</span>
+                </div>
+            </div>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up" style="background-color: black;"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
